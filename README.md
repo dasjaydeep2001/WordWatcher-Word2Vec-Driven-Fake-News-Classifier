@@ -1,6 +1,8 @@
 # WordWatcher-Word2Vec-Driven-Fake-News-Classifier
 Welcome to WordWatcher: a groundbreaking Fake News Classifier driven by Word2Vec embeddings! 📰✨ Our project harnesses the power of Word2Vec to dissect news titles, empowering users to distinguish between genuine and fabricated stories with accuracy and precision.
+
 In WordWatcher, the process likely involves several key steps:
+
 ##Data Processing: This involves preparing the raw data for analysis. For news articles, it might include tasks like tokenization (breaking down text into individual words or tokens), removing stop words (common words like "the", "is", "and" that don't contribute much to meaning), and perhaps stemming or lemmatization (reducing words to their root form).
 
 ##Training Classifier: With the processed data, you would train a classifier using Word2Vec embeddings. This involves representing each news title as a vector based on the semantic meaning of the words in it. Word2Vec embeddings are trained to capture semantic relationships between words, so similar words have similar vector representations. You would then feed these vectors into a classification algorithm, such as a neural network, support vector machine, or decision tree, to learn how to distinguish between genuine and fake news based on the embeddings.
